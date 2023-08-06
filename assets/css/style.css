@@ -1,0 +1,190 @@
+/* 
+    Theme: Lucid
+    Author: Israt Zahan Mukta
+    Live URL: https://www.somrthing.com
+
+    Primary Color: #008ED6
+    Secondary Color: #fff
+
+    Font Style
+    Title: Roboto
+    Paragraph: Roboto
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Global CSS */
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin: 0;
+    padding: 0; 
+}
+a{
+	text-decoration: none; 
+}
+ul{
+    padding: 0;
+}
+h6{
+    color: #008ED6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-all{
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #727173;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+} 
+.btn-all:hover{
+    color: #fff;
+    border: 1px solid #008ED6;
+    background: #008ED6;
+}
+/* Header Section */
+header{
+    background: url(../img/banner.png) no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.navbar-brand{
+      padding: 20px 0px;
+}
+.nav-link{
+    color: #ffffff ;
+    margin-right: 20px; 
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    position: relative; 
+    overflow: hidden;
+}
+.nav-link:hover{
+    color: #fff; 
+}
+.nav-link::before{
+    content: "";
+    position: absolute; 
+    background: #008ED6;
+    bottom: 0;
+    left: -50%;
+    margin-top: 5px;
+    height: 3px;
+    width: 48%;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link::after{
+    content: "";
+    position: absolute; 
+    background: #008ED6;
+    bottom: 0;
+    right: -50%;
+    margin-top: 5px;
+    height: 3px;
+    width: 48%;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover::before{
+    left: 0;
+}
+.nav-link:hover::after{
+    right: 0;
+} 
+/* Hero section */ 
+.banner{
+     margin-top: 5%; 
+}
+h1{
+    color: #fff;
+    margin: 25px 0 20px;
+    font-size: 45px;
+    font-weight: 400;
+}
+p{
+    color: #727173;
+    margin-bottom: 25px;
+    padding-right: 66px; 
+}
+.hero-section li{
+    display: inline-block;
+}
+.b_phone{
+    position: absolute;
+    bottom: 0;
+    margin-left: 45%;
+    width: 30%;
+}
+/* Features Section */
+.feature-section{
+    padding: 4% 0;
+}
+.features-title{
+    text-align: center; 
+}
+.features-title h2{
+    margin-top: 1.5%;
+}
+.section-title span{
+    position: relative;
+    display: block;
+    margin: 2% auto 8%;
+}
+.section-title span::before{
+    content: "";
+    position: absolute; 
+    background: #008ED6;
+    left: 46.8%;
+    height: 3px;
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+} 
+.section-title span::after{
+    content: "";
+    position: absolute; 
+    background: #008ED6;
+    right: 46.8%;
+    height: 3px;
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+}
+.section-title:hover span::before,
+.section-title:hover span::after{
+    width: 3%;
+}
+.feature-content{
+    text-align: center;
+}
+.feature-content .icon-border{
+    border: 1px solid #e0e0e0;
+    border-radius: 50%; 
+    margin: 0 auto;
+    width: 100px; 
+    height: 100px;
+    transition: all 0.8s ease-in-out;
+}
+.icon-border i{
+    font-size: 25px;
+    line-height: 100px; 
+    color: #008ED6;
+    
+}
+.feature-content .icon-border:hover{
+    transform: rotate(360deg); 
+}
+.feature-content h4{
+    margin: 30px 0 15px; 
+    font-size: 25px; 
+}
+.feature-content p{
+    padding: 0 20px; 
+}
+/* Divice Section */

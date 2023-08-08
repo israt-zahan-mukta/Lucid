@@ -39,6 +39,7 @@ h6{
     color: #fff;
     text-transform: uppercase;
     border: 1px solid #727173;
+    border-radius: 3px;
     font-size: 14px;
     font-weight: 300;
     padding: 15px;
@@ -59,9 +60,13 @@ header{
 .navbar-brand{
       padding: 20px 0px;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
 .nav-link{
     color: #ffffff ;
-    margin-right: 20px; 
+    margin-left: 25px; 
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 0.5px;
@@ -110,7 +115,7 @@ h1{
     font-weight: 400;
 }
 p{
-    color: #727173;
+    color: #999999;
     margin-bottom: 25px;
     padding-right: 66px; 
 }
@@ -132,6 +137,9 @@ p{
 }
 .features-title h2{
     margin-top: 1.5%;
+}
+.feature-title span{
+    margin: 2% auto;
 }
 .section-title span{
     position: relative;
@@ -156,8 +164,8 @@ p{
     width: 0%;
     transition: all 0.3s ease-in-out;
 }
-.section-title:hover span::before,
-.section-title:hover span::after{
+section:hover span::before,
+section:hover span::after{
     width: 3%;
 }
 .feature-content{
@@ -187,4 +195,70 @@ p{
 .feature-content p{
     padding: 0 20px; 
 }
-/* Divice Section */
+.feature-section{
+    border-bottom:  1px solid #e0e0e0;
+}
+/* Device CSS */
+.device-section{
+    padding: 5.5% 0 2.5%;
+}
+.device-section img{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.device-section img:hover{
+    transform: scale(1.1, 1.1);
+}
+.device-title{
+    margin-top: 3%;
+}
+.device-title span,
+.customize-content span{
+    margin: 4% 0 10%;
+    text-align: right;
+}
+.device-title span::before, 
+.customize-content span::before{
+    left: 0;
+}
+.device-title span::after,
+.customize-content span::after{
+    right: 93.6%;
+}
+.device-content p{
+    margin: 25px 0 25px;
+    padding-right: 88px;
+}
+.device-content ul li{
+    list-style: none;
+    margin-bottom: 1.5%;
+}
+.device-content ul li .fa-solid{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    color: #008ed6;
+}
+.device-content ul li h5{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+}
+/* Customize CSS */
+.customize-section{
+    background: #f2f2f2;
+    padding: 2.3% 0 1.5%;
+}
+.customize-section p{
+    padding-right: 5px; 
+}
+.iPhone-image{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.iPhone-image:hover{
+ transform: scale(1.1, 1.1);
+}
+

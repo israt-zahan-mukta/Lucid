@@ -106,7 +106,11 @@ header{
 } 
 /* Hero section */ 
 .banner{
-     margin-top: 5%; 
+/*      margin-top: 5%;  */
+
+}
+.hero-row{
+    min-height: 75vh;
 }
 h1{
     color: #fff;

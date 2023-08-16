@@ -444,6 +444,10 @@ section:hover span::after{
     border: 1px solid #444348;
     box-shadow: none;
     padding: 10px;
+}
+.form-box input::placeholder,
+.form-box textarea::placeholder{
+    color: #444348;
 } 
 .form-box textarea{
     background: transparent;
@@ -468,6 +472,9 @@ section:hover span::after{
 .form-box input[type="submit"]:hover{
     background: #005581;
     border: 1px solid #005581;
+}
+iframe{
+    display: block;
 }
 /* Footer CSS */
 footer{

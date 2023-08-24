@@ -1,0 +1,107 @@
+@media (max-width: 767px) {
+	.hero-section{ text-align: center; margin-bottom: 20px; }
+	.navbar-toggler-i{ color: #fff; font-size: 25px; }
+    .navbar-toggler{ padding: 0;}
+    .navbar-nav{ text-align: center; margin-top: 40px;}
+    .navbar-toggler:focus { box-shadow: none;}
+    .nav-link{ display: block; margin-bottom: 2%;}
+    .nav-link::before,.nav-link::after{ width: 0; }
+	.b_phone{ position:static; width: 75%; margin: 40px auto 30px auto; }
+	.hero-row{ flex-direction:column-reverse; }
+	.hide_mb{ display: none;}
+	.hide_dsk{ display: block;}
+	.hero-row h1{ font-size: 40px; }
+	.hero-row  p{ margin-bottom: 30px; padding: 0 45px 0 45px;}
+
+	.feature-section{ padding: 5% 0; }
+	h2{ font-size: 35px; }
+	.feature-section h4{ font-size: 22px; }
+	.feature-section p{ font-size: 16px; }
+
+	.about-section{ padding: 5% 0; }
+	.about-section img{ width: 60%; margin-left: 18%;}
+
+	.device-section{ padding: 5% 0; }
+	.device-section img{ width: 80%; }
+
+	.testimonials-section p{ text-align: center; padding-right: 0; font-weight: 300; font-size: 20px; }
+	.slide-man{ justify-content: center; }
+	.slide-intro p{ text-align: start;}
+
+	.add-section{ padding: 4% 0 2%;}
+	.add-section h2{ font-size: 24px; margin-bottom: 20px;}
+	.add-section .btn-all{ font-size: 12px; padding: 12px;}
+	.add-section ul{text-align:center;}
+
+	.price-tbl{ margin: 0 auto 35px; }
+	.price-tbl h2{ font-size: 29px; }
+	.price-tbl h1{ font-size: 40px; }
+	.price-tbl h1 sup{ font-size: 25px; }
+	.price-tbl p{ font-size: 16px; }
+	.price-tbl .button{ padding: 12px; font-size: 15px; }
+
+	.contact-section{ padding-bottom: 58%; }
+	.contact-content .icon-box i{ font-size: 27px; }
+	.contact-content p{ font-size: 15px; padding: 0; }
+	.form-box{ width: 70%; }
+}
+@media (max-width: 575px) {
+	.hero-row h1{ font-size: 38px; }
+	.hero-row p{ font-size: 20px; }
+
+	.feature-section p{ padding: 0 10%; }
+
+	.about-section p{ padding-right: 0; }
+
+	.slide-intro p{ font-size: 15px; }
+	.slide-intro h6{ font-size: 15px; }
+	.owl-dots .owl-dot span{ margin: 0 9px; }
+
+	.add-section h2{ text-align: center; }
+
+	.price-tbl{ margin: 0 10% 7%; }
+
+	.contact-section{ padding-bottom: 70%; }
+	.contact-content .icon-box i{ line-height: 75px; }
+} 
+@media (max-width: 425px){
+	.contact-section{ padding-bottom: 92%; }
+	.contact-content .icon-box i{ line-height: 65px; }
+
+	.form-box input[type="submit"]{ font-size: 13px; padding: 8px; }
+	iframe{ height: 300px; }
+
+	footer p{ padding-right: 0; font-size: 14px; }
+}
+@media (max-width: 375px){
+	.hero-row p{ padding: 0; }
+	.contact-section{ padding-bottom: 100%; }
+}
+@media (max-width: 320px){
+	.hero-row h1{ font-size: 34px; }
+	.hero-row p{ font-size: 16px; }
+	h6{ font-size: 14px; }
+	.hero-row .btn-all{ margin: 0 0 10px 5px !important; padding: 10px; font-size: 12px;}
+	h2{ font-size: 30px; }
+	.feature-content .icon-border{ height: 80px; width: 80px; }
+	.icon-border i{ line-height: 80px; }
+	.about-content p{ font-size: 16px; }
+	.about-content ul li h5{ font-size: 16px; }
+	.device-content p{ font-size: 16px; }
+	.testimonials-section p{ font-size: 15px; }
+	.slide-intro p{ font-size: 13px; }
+	.slide-intro h6{ font-size: 13px; }
+	.owl-dots .owl-dot span{ margin: 0 5px; height:7px; width: 7px;}
+	.add-section h2{ font-size: 20px; }
+	.price-tbl h2{ font-size: 25px; }
+	.price-tbl h1{ font-size: 36px; }
+	.price-tbl h1 sup{ font-size: 20px; }
+	.price-tbl .price p{ font-size: 15px; }
+	.price-tbl p{ font-size: 15px; }
+	.price-tbl .button{ padding: 12px; font-size: 13px; }
+	.contact-section{ padding-bottom: 120%; }
+	.form-box{ width: 80%; }
+	footer p{ font-size: 12px; }
+	footer ul{ margin-bottom: 5px; }
+
+}

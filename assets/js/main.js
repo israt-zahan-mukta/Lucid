@@ -1,8 +1,13 @@
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-    items:2,
+    items:1,
     loop:true,
     autoplay:true,
-    autoplayTimeout:8000
+    autoplayTimeout:8000,
+    responsive:{
+     768:{
+       items:2
+     }
+    }
   });
 });

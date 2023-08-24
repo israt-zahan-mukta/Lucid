@@ -133,6 +133,12 @@ p{
     margin-left: 45%;
     width: 30%;
 }
+.hide_mb{
+    display: block;
+}
+.hide_dsk{
+    display: none;
+}
 /* Features Section */
 .feature-section{
     padding: 4% 0;
@@ -270,7 +276,7 @@ section:hover span::after{
 .testimonials-section{
     background: url(../img/testimonial.png) no-repeat center top;
     background-size: cover;
-    padding: 4% 0 2%;
+    padding: 4% 0 3%;
 }
 .testimonials-section h2{
     color: #fff;
@@ -279,7 +285,7 @@ section:hover span::after{
     padding: 5% 0 2%;
 }
 .slide-item p{
-    font-size: 25px;
+    font-size: 21px;
     color: #fff;
 }
 .slide-man{
@@ -290,7 +296,6 @@ section:hover span::after{
 }
 .slide-intro{
     padding-left: 2%; 
-    padding-bottom: 10%;
 }
 .slide-intro p{
    font-size: 18px; 
@@ -374,18 +379,18 @@ section:hover span::after{
 }
 .price-tbl p{
     padding-right: 0;
-    font-size: 20px;
+    font-size: 18px;
     padding: 15% 10%;
     margin-bottom: 0 !important;
 }
 .price-tbl .button{
     color: #008ED6;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     border: 1px solid #e0e0e0;
     border-radius: 3px;
-    padding: 20px 47px;
+    padding:16px 35px;
     transition: all 0.5s ease-in-out;
 }
 .price-tbl:hover h2{
@@ -414,7 +419,7 @@ section:hover span::after{
 .contact-content{
     text-align: center;
 }
-.contact-content .icon-border i{
+.contact-content .icon-box i{
     font-size: 35px;
     line-height: 100px; 
     color: #008ED6;
@@ -444,27 +449,39 @@ section:hover span::after{
     border: 1px solid #444348;
     box-shadow: none;
     padding: 10px;
+    transition: all 0.3s ease-in-out;
 }
 .form-box input::placeholder,
 .form-box textarea::placeholder{
     color: #444348;
-} 
+}
+.form-box input:focus,
+.form-box textarea:focus{
+    background: transparent;
+    box-shadow: none !important;
+    outline:  none;
+    border: 1px solid #444348 !important;
+}
 .form-box textarea{
     background: transparent;
     border: 1px solid #444348;
-    box-shadow: none;
-    outline: none;
     padding: 10px;
+    transition: all 0.3s ease-in-out;
 } 
+.form-box input:hover,
+.form-box textarea:hover{
+    color: #fff;
+/*     border: 1px solid #444348; */
+}
 .form-box input[type="submit"]{
     color: #fff;
     background: #008ED6;
-    font-weight: 700;
-    font-size: 17px;
+    font-weight: 600;
+    font-size: 15px;
     text-transform: uppercase;
     border: 1px solid #008ED6;
     border-radius: 3px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     transition: all 0.3s ease-in-out;
     display: block;
     margin-left: auto;

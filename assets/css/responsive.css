@@ -75,13 +75,13 @@
 }
 @media (max-width: 375px){
 	.hero-row p{ padding: 0; }
-	.contact-section{ padding-bottom: 100%; }
+	.hero-row .btn-all{ margin: 0 0 10px 5px !important; padding: 10px; font-size: 12px;}
+	.contact-section{ padding-bottom: 103%; }
 }
 @media (max-width: 320px){
 	.hero-row h1{ font-size: 34px; }
 	.hero-row p{ font-size: 16px; }
 	h6{ font-size: 14px; }
-	.hero-row .btn-all{ margin: 0 0 10px 5px !important; padding: 10px; font-size: 12px;}
 	h2{ font-size: 30px; }
 	.feature-content .icon-border{ height: 80px; width: 80px; }
 	.icon-border i{ line-height: 80px; }
